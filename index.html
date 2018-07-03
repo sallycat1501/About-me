@@ -1,0 +1,32 @@
+# About-me
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sarah Peterson test</title>
+  </head>
+  <body>
+    <link
+    rel="stylesheet"
+    href="colorssheet.css">
+    <script src="webpage.js"></script>
+    <button onclick="myFunction()">Click here</button>
+    <script>
+    function myFunction() {
+    alert("Click on each heading to learn more!");
+  }
+</script>
+    <h1>Sarah Peterson</h1>
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">About Me!</button>
+    <p id="demo" style="display:none">Hello! I am Sarah Peterson. I am 16 years old, and I live in Alpharetta, Georgia. I am a rising Junior at Chattahoochee High School. I have four pets; two dogs named Cubes and Baxter, and two cats named Ricky and Lucy. I have one older sister named Alison.</p>
+    <button type="button" onclick="document.getElementById('demo2').style.display='block'">My Interests</button>
+    <p id="demo2" style="display:none">I am really interested in ballet, drawing, calligraphy, and languages.
+    You can see a video of my ballet idol, Madison Penney, <a href="https://www.youtube.com/watch?v=gBdIVVgyGxM">here.</a>
+    If you would like to see some examples of calligraphy, click <a href="https://www.google.com/search?q=calligraphy&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi1w9PPg4HcAhWIInwKHUYFARMQ_AUICigB&biw=1280&bih=603">here.</a><button onclick="document.getElementById('myImage').src='balletposes1.jpg'">Go to position 1</button>
+    <img id="myImage" src="balletposes1.jpg" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='balletposes2.jpg'">Go to position 2</button></p>
+    <h2>Recent Projects:</h2>
+    Some of my recent coding projects from Girls Who Code include a maze game on Scratch,
+    hangman on Python, and a dancing robot using Arduino Uno.
+  </body>
+</html>
