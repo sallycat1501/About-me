@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+  color: royalblue
+}
+h2{
+  color: palevioletred
+}
+body{
+  background: lightblue
+}
+button{
+    background-color: lightblue;
+    border: white;
+    color: palevioletred;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Georgia
+}
